@@ -31,7 +31,7 @@ def plot_errors(history, epochs):
     plt.plot(epochs_range, train_loss, label='train_loss')
     plt.plot(epochs_range, val_loss, label='validation_loss')
     plt.xlabel('Epochs')
-    plt.ylabel('Binary Cross Entropy')
+    plt.ylabel('Categorical Cross Entropy')
     plt.legend()
     plt.show()
 
